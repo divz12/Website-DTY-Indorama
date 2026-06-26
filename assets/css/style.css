@@ -1,6 +1,4 @@
-/* ===================================
-   GOOGLE FONT
-=================================== */
+/* GOOGLE FONT */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 *{
@@ -17,10 +15,7 @@ body{
 }
 
 
-/* ==========================
-   NAVBAR
-========================== */
-
+/* NAVBAR */
 .navbar{
     background: transparent;
     padding: 20px 0;
@@ -71,10 +66,8 @@ body{
     width: 100%;
 }
 
-/* ==========================
-   HERO
-========================== */
 
+/* HERO */
 .hero{
     height:100vh;
 
@@ -131,10 +124,8 @@ body{
     background:#1D4ED8;
 }
 
-/* ==========================
-   ABOUT
-========================== */
 
+/* ABOUT */
 .about{
     padding:100px 0;
 }
@@ -213,12 +204,10 @@ body{
     font-weight:600;
 }
 
-/* ==========================
-   WHY CHOOSE US
-========================== */
 
+/* WHY CHOOSE US */
 .why-us{
-    padding:100px 0;
+    padding:50px 0;
     background:#F8FAFC;
 }
 
@@ -277,10 +266,7 @@ body{
 }
 
 
-/* ==========================
-   PRODUCTION
-========================== */
-
+/* PRODUCTION */
 .production{
     padding:100px 0;
     background:white;
@@ -345,10 +331,8 @@ body{
     line-height:1.8;
 }
 
-/* ==========================
-   STATISTICS
-========================== */
 
+/* STATISTICS */
 .statistics{
 
     padding:100px 0;
@@ -445,85 +429,33 @@ body{
     border-radius:20px;
 }
 
-
-/* ==========================
-   PRODUCTS
-========================== */
-
-.products{
-
-    padding:100px 0;
-
-    background:#FFFFFF;
+/* CUSTOMERS */
+.customers {
+    padding: 100px 0;
+    background: #fff;
 }
 
-.products-desc{
-
-    max-width:700px;
-
-    margin:auto;
-
-    color:#64748B;
+.customer-logo {
+    max-height: 120px;
+    width: auto;
+    transition: 0.3s ease;
 }
 
-.product-card{
-
-    background:white;
-
-    border-radius:20px;
-
-    overflow:hidden;
-
-    height:100%;
-
-    transition:.3s;
-
-    box-shadow:
-    0 5px 20px rgba(0,0,0,0.08);
+.customer-logo:hover {
+    transform: scale(1.05);
 }
 
-.product-card:hover{
-
-    transform:translateY(-10px);
-}
-
-.product-card img{
-
-    width:100%;
-
-    height:250px;
-
-    object-fit:cover;
-}
-
-.product-content{
-
-    padding:25px;
-}
-
-.product-content h4{
-
-    color:#0F172A;
-
-    margin-bottom:15px;
-}
-
-.product-content p{
-
-    color:#64748B;
-
-    line-height:1.7;
+.customers-desc {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #555;
 }
 
 
-/* ==========================
-   QUALITY CONTROL
-========================== */
-
+/* QUALITY CONTROL */
 .quality{
 
-    padding:100px 0;
-
+    padding:50px 0;
     background:#F8FAFC;
 }
 
@@ -583,10 +515,7 @@ body{
 }
 
 
-/* ==========================
-   GALLERY
-========================== */
-
+/* GALLERY */
 .gallery{
     padding:100px 0;
     background:#fff;
@@ -671,12 +600,7 @@ body{
 }
 
 
-
-
-/* ==========================
-   CONTACT
-========================== */
-
+/* Contact */
 .contact{
 
     padding:100px 0;
@@ -771,10 +695,7 @@ body{
     margin:0;
 }
 
-/* ==========================
-   GOOGLE MAPS
-========================== */
-
+/* GOOGLE MAPS */
 .map-container{
 
     margin-top:25px;
@@ -790,10 +711,7 @@ body{
 }
 
 
-/* ==========================
-   FOOTER
-========================== */
-
+/* FOOTER */
 .footer{
 
     background:#111827;
