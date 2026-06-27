@@ -38,6 +38,10 @@ body{
     font-weight:600;
 }
 
+.text-navy{
+    color:#60A5FA
+}
+
 @media (max-width:991px){
 
     #navbar{
